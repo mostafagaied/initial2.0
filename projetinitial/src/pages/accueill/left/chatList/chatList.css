@@ -1,0 +1,100 @@
+/* formtraje.css */
+
+
+/* General styles for the form container */
+.form-container {
+    font-family: 'Arial', sans-serif;
+    margin: 50px auto;
+    max-width: 400px;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  /* Fieldset styles */
+  fieldset {
+    border: #555;
+  }
+  
+  /* Legend styles */
+  legend {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  /* Form group styles */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    width: 100%;
+  }
+  
+  /* Label styles */
+  label {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Input and textarea styles */
+  input[type="date"],
+  input[type="number"],
+  input[type="time"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    background-color:transparent ;
+  }
+  
+  /* Input focus styles */
+  input[type="date"]:focus,
+  input[type="number"]:focus,
+  select:focus,
+  input{
+    background-color:transparent ;
+  }
+  textarea:focus {
+    border-color: white;
+    outline: none;
+  }
+  
+  /* Button styles */
+  .btn-submit {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #5d8d5f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Button hover styles */
+  .btn-submit:hover {
+    background-color: transparent;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 480px) {
+    .form-container {
+      width: 90%;
+    }
+  }
+  /* Target the class "colored-section" */
+.colored-section {
+  background-color: #f0f8ff; /* Light blue color */
+  padding: 20px;           /* Add padding for spacing */
+  border-radius: 10px;     /* Optional: rounded corners */
+}

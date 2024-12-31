@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+  }
+  
+  .accueil {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px;
+    box-shadow: 2px 0 5px rgba(11, 250, 114, 0.1);
+  }
+  
+  .user-info {
+    text-align: center;
+  }
+  
+  .user-info h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  .user-info p {
+    font-size: 1em;
+    color: #d1e7ff;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    overflow-y: auto;
+  }
+  
+  .main-content h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #343a40;
+  }
+  
+  .trips {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .trip-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .trip-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .trip-card h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #007bff;
+  }
+  
+  .trip-card p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #6c757d;
+  }
+
+
+  .faq-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .faq-section h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 30px;
+  }
+  
+  /* Conteneur des colonnes */
+  .faq-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  /* Colonnes */
+  .faq-column {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  /* Élément individuel */
+  .faq-item {
+    margin-bottom: 30px;
+  }
+  
+  .faq-item h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .faq-item p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Ligne de séparation entre les FAQ */
+  .faq-item + .faq-item {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+  }
+  

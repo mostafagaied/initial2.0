@@ -1,0 +1,60 @@
+/* Style for the TravelSearchBar */
+
+.TravelSearchBar {
+  position: relative; /* Keep it at the top */
+  top: 10px; /* Distance from the top */
+  left: 40%; /* Adjust this value to move it to the left */
+  transform: translateX(-50%); /* Center it horizontally */
+  width: 80%; /* Set a width for the search bar */
+  max-width: 400px; /* Optional: limit the maximum width */
+  height: 30px; /* Adjust height for better alignment */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  padding: 5px; /* Add some padding */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
+  z-index: 1000; /* Ensure it appears above other elements */
+  border-bottom: 1px solid #dddddd35;
+}
+
+.TravelSearchBar input[type="date"] {
+  flex: 1; /* Allow input to take available space */
+  height: 100%; /* Match height of the TravelSearchBar */
+  border: none; /* Remove default border */
+  outline: none; /* Remove outline on focus */
+  font-size: 12px; /* Decrease font size for smaller appearance */
+  padding: 2px 5px; /* Reduce padding for a smaller input */
+  margin-top: 0; /* Remove top margin */
+}
+.TravelSearchBar input[type="number"] {
+  flex: 1; /* Allow input to take available space */
+  height: 100%; /* Match height of the TravelSearchBar */
+  border: none; /* Remove default border */
+  outline: none; /* Remove outline on focus */
+  font-size: 16px; /* Increase font size for better readability */
+  padding: 5px 10px; /* Increase padding for a larger input */
+  min-width: 60px; /* Set a minimum width for the number input */
+}
+.TravelSearchBar button {
+  height: 100%; /* Match height of the TravelSearchBar */
+  background-color: #5d8d5f; /* Button color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  padding: 0 8px; /* Adjust horizontal padding */
+}
+.TravelSearchBar select {
+  flex: 1; /* Allow select to take available space */
+  height: 30px; /* Set a fixed height for the select */
+  font-size: 10px; /* Increase font size for better readability */
+  padding: 8px; /* Increase padding for a larger input */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 5px; /* Rounded corners */
+  outline: none; /* Remove outline on focus */
+  appearance: none; /* Remove default styling (optional) */
+  background-color: transparent; /* Background color */
+  margin: 0 5px; /* Add margin between selects */
+  min-width: 120px; /* Set a minimum width for the select */
+}

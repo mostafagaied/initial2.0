@@ -1,0 +1,31 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+body{
+  background-image:url("/src/assets/bg1.jpg") ;
+  
+  color: white;
+  
+ 
+  
+}
+section{
+  
+  
+  
+  
+}
+.container{
+  
+  background-color: rgba(136, 140, 148, 0.75);
+  border-radius: 12px;
+  backdrop-filter:blur(19px) saturate(180%) ;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  display: flex;
+
+}
